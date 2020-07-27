@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+body{
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  width: 95%;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 65px;
+  padding: 0px 100px;
+  background-color: #032541;
+  color: #67C6B4;
 }
 
-.App-link {
-  color: #61dafb;
+.main-header .title{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-header h1{
+  letter-spacing: 0.1em;
+}
+
+.main-header ul{
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.main-header li{
+  list-style: none;
+  padding: 10px;
+}
+
+.showcase {
+  background-image: url("./images/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 300px;
+  margin: 0 30px;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 0.1em;
+}
+
+.showcase h1{
+  font-size: 45px;
+  padding-top: 60px;
+  font-weight: 800;
+  line-height: 0em;
+}
+
+.showcase p{
+  font-size: 28px;
+  line-height: 0.1em;
+  font-weight: 700;
+}
+
+.showcase input[type="text"]{
+  width: 100%;
+  margin: 40px 0;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 40px;
 }
