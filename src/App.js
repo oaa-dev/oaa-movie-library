@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import img from "./images/imge1.jpg"
+import MovieList from './components/MovieList';
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
           </div>
         </section>
 
+        
         <section className="movies">
           <div className="container">
             <div className="column odd">
@@ -43,93 +44,7 @@ function App() {
                   <li><a>In Theaters</a></li>
                 </ul>
               </div>
-              <div className="movie-list">
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-                <div className="movie-content" >
-                  <img src={img}/>
-                  <div>
-                    <h3>Harry Potter and the Chamber of Secrets </h3>
-                    <p>Nov 13, 2002</p>
-                  </div>
-                </div>
-              </div>
+                <MovieList/>
             </div>
           </div>
         </section>

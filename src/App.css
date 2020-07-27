@@ -108,7 +108,7 @@ input:focus{
 
 
 .movies .movie-list{
-  font-size: 15px;
+  font-size: 14px;
   display: flex;
   overflow-x: scroll;
 }
@@ -116,22 +116,23 @@ input:focus{
 .movies .movie-content{
   color: #000;
   margin-left: 20px;
-  
+  /* max-width: 200px; */
 }
 
 .movies .movie-content img{
   border-radius: 10px;
-  width: 150px;
+  width: 200px;
 }
 
 .movies .movie-content p{
   line-height: 0em;
-  color: #ccc;
+  color: #333;
+  font-style: italic;
 }
 
 
 .odd {
-  background-image: url('./images/bar.svg');
+  /* background-image: url('./images/bar.svg'); */
   background-position: center bottom;
   background-repeat: no-repeat;
   /* background-size: cover; */
