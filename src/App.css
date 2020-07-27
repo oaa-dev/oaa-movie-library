@@ -7,6 +7,10 @@ body{
   margin: 0;
 }
 
+input:focus{
+  outline: none;
+}
+
 .container{
   width: 95%;
   margin: auto;
@@ -45,13 +49,13 @@ body{
 }
 
 .showcase {
-  background-image: url("./images/banner2.jpg");
+  background: linear-gradient(rgba(85, 65, 65, 0.5), rgba(0, 0, 0, 0.5)), url("./images/banner3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
-  min-height: 300px;
-  margin: 0 30px;
-  padding: 10px;
+  min-height: 350px;
+  /* margin: 0 30px; */
+  padding: 20px;
   color: #fff;
   letter-spacing: 0.1em;
 }
@@ -71,8 +75,64 @@ body{
 
 .showcase input[type="text"]{
   width: 100%;
-  margin: 40px 0;
+  margin: 40px auto;
   font-size: 20px;
   padding: 15px;
   border-radius: 40px;
+}
+
+.movies {
+  margin: 50px 0;
+}
+
+.movies .column {
+  padding: 20px 50px;
+}
+
+.movies .column .header {
+  display: flex;
+}
+
+.movies .column .header ul {
+  display: flex;
+  padding: 0;
+  background-color: #ccc;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.movies .column .header li {
+  padding: 5px 15px;
+  list-style: none;
+}
+
+
+.movies .movie-list{
+  font-size: 15px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.movies .movie-content{
+  color: #000;
+  margin-left: 20px;
+  
+}
+
+.movies .movie-content img{
+  border-radius: 10px;
+  width: 150px;
+}
+
+.movies .movie-content p{
+  line-height: 0em;
+  color: #ccc;
+}
+
+
+.odd {
+  background-image: url('./images/bar.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
 }
