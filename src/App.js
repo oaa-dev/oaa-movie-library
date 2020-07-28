@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 import MovieList from './components/MovieList';
+import Collection from './components/Collection';
 
 function App() {
   return (
@@ -31,23 +32,10 @@ function App() {
           </div>
         </section>
 
+        <MovieList title = "What's Popular" categories = {['movie', 'tv', 'all']}  />
         
-        <section className="movies">
-          <div className="container">
-            <div className="column odd">
-              <div className="header">
-                <h2>What's Popular </h2>
-                <ul>
-                  <li><a>Streaming</a></li>
-                  <li><a>On TV</a></li>
-                  <li><a>For Rent</a></li>
-                  <li><a>In Theaters</a></li>
-                </ul>
-              </div>
-                <MovieList/>
-            </div>
-          </div>
-        </section>
+        <Collection/>
+        
       </main>
     </div>
   );

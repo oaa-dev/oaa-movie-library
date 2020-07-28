@@ -1,0 +1,40 @@
+
+.movies {
+    margin: 5px 0;
+  }
+  
+  .movies .column {
+    padding: 20px 50px;
+  }
+  
+  .movies .column .header {
+    display: flex;
+  }
+  
+  .movies .column .header ul {
+    display: flex;
+    padding: 0;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: 1px solid;
+  }
+  
+  .movies .column .header li {
+    padding: 3px 15px;
+    list-style: none;
+  }
+
+  .movies .column .header li:hover {
+      background-color: #333;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+  
+  
+  .movies .movie-list{
+    font-size: 14px;
+    display: flex;
+    overflow-x: scroll;
+  }
