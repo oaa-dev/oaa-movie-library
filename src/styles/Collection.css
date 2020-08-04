@@ -1,17 +1,22 @@
 
 .nav {
-    background-color: #333;
-    color: rgb(202, 190, 190);
-    width: 25%;
+    background-color: #455a64;
+    /* background-image: url("../images/banner.jpg"); */
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: #fff;
     border-radius: 10px;
+    border: 2px black solid;
+    margin: 0 -10px;
+
   }
   
   .nav ul{
     padding: 0 20px;
-    /* margin: 0 50px; */
-    font-size: 20px;
-    /* border: 1px solid; */
-  
+    font-size: 18px;
+    font-weight: bold;
   }
   
   .nav li{
@@ -19,8 +24,6 @@
     margin: 5px 0;
     padding: 5px 20px;
     border-radius: 10px;
-    font-size: 18px;
-    font-weight: bold;
     border-bottom: 1px solid #ccc;
   }
   
@@ -36,20 +39,29 @@
   .main-container{
     margin: 30px 0;
   }
-  
+
   .main-container .container .nav{
-      float: left;
-      width: 25%;
-      box-sizing: border-box;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
   }
   
-  .main-container .filter-movies{
-    float: left;
+  .main-container .content {
+    float: right;
     width: 75%;
+    padding: 0 20px;
     box-sizing: border-box;
-    
-    padding: 30px;
+  }
+
+  
+  .main-container .filter-movies{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+
+  
+  .main-container .content-header h1 {
+    padding: 0 30px;
   }

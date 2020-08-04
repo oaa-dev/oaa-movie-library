@@ -1,0 +1,51 @@
+
+.showInfo {
+
+    background: linear-gradient(rgba(85, 65, 65, 0.5), rgba(0, 0, 0, 0.5)), url("../images/banner3.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+
+    display: flex;
+    justify-content: start;
+
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .showInfo img {
+      width: 70%;
+  }
+
+  .showInfo .movie-img{
+      width: 30%;
+  }
+
+  .showInfo .movie-info{
+      text-align: left;
+      width: 70%;
+  }
+
+  .showInfo .movie-info h1{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+  }
+  
+  .showInfo .movie-info h3{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+  }
+
+  
+  .showInfo .movie-info p{
+    /* padding: 0 30px; */
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    color: #f4f4f4;
+    text-align: justify;
+    text-indent: 50px;
+  }

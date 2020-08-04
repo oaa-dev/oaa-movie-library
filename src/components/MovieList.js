@@ -5,7 +5,6 @@ import Card from './Card';
 
 export default class MovieList extends Component {
     constructor(props){
-        console.log("constructor")
         super(props);
         
         this.state = { movies : null }
@@ -13,7 +12,6 @@ export default class MovieList extends Component {
     }
 
     componentDidMount(){
-        console.log("mount")
         axios.get(`https://api.themoviedb.org/3/trending/all/week?api_key=7aea42c3d4b351d11ef26f33331883cb`)
         .then(res => {
             //   console.log(res)
@@ -32,7 +30,6 @@ export default class MovieList extends Component {
     }
 
     render() {
-        console.log(this.state.movies)
         return (
             <section className="movies">
                 <div className="container">
